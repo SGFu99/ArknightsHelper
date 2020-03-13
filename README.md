@@ -17,7 +17,7 @@ ArknightsHelper
 **！！！本脚本只支持1280*720分辨率的Android模拟器！！！**  
 **！！！本脚本只支持1280*720分辨率的Android模拟器！！！**  
 
-不想装环境的可以直接下载打包好了的exe文件: [https://pan.baidu.com/s/1vayfznJiHWqpBx9BW4lJkQ](https://pan.baidu.com/s/1vayfznJiHWqpBx9BW4lJkQ) 提取码: m4mr  
+不想装环境的可以直接下载打包好了的exe文件: [https://pan.baidu.com/s/1eoIKHap-Xpg5empgdoVPDQ](https://pan.baidu.com/s/1eoIKHap-Xpg5empgdoVPDQ) 提取码: hepv   
 
 * 下载一个Android模拟器，我用的是mumu模拟器，**模拟器设置分辨率1280*720并确保开启adb**。（脚本默认设置的是mumu模拟器连接指令，**其它模拟器需要编辑`tools.py`修改`connect_command`为该模拟器的ADB连接指令**）
 
