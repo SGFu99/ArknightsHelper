@@ -16,7 +16,7 @@ ArknightsHelper
 **！！！本脚本只支持1280*720分辨率的Android模拟器！！！**  
 **！！！本脚本只支持1280*720分辨率的Android模拟器！！！**  
 
-可以直接下载打包好了的exe文件跳过这些配置
+可以直接下载打包好了的exe文件跳过以下步骤: [ArkHelper.exe百度云链接](https://pan.baidu.com/s/1vayfznJiHWqpBx9BW4lJkQ) 提取码: m4mr  
 
 * 下载一个Android模拟器，我用的时mumu模拟器**模拟器设置分辨率1280*720并确保开启adb**（我用的mumu模拟器，其它模拟器没测试过，理论上编辑`tools.py`修改`connect_command`就行了吧）
 
