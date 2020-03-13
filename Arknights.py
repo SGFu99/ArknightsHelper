@@ -70,7 +70,7 @@ class Arknights():
             self.__wait(time/1000.0)
             tools.touch(stop_pos)
         elif dest=="lleft": # <<<----
-            tools.swipe(lleft_pos,right_pos,time/10)
+            tools.swipe(lleft_pos,right_pos,time)
         else:
             print("swipe error")
 
@@ -506,7 +506,7 @@ d. 装置      S3-4      c. 糖        S3-1
             op_str+=', '.join(tmp_list)
             if '3★' not in op_str and '2★' not in op_str:
                 item[0]='★'+item[0]
-            print(item[0]+'\t: '+op_str.strip())
+            print(item[0]+' : '+op_str.strip())
         
 #     def test_func(self):
 #         # self.__swipe_to('lleft')
