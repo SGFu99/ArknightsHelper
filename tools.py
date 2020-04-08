@@ -7,11 +7,14 @@ from pickle import loads
 from cv2 import matchTemplate,imread
 from os import system,chdir,getcwd,listdir
 
-temp_dir= '.'#sys._MEIPASS   #获取缓存目录（打包时取消注释）
+try:
+    temp_dir= sys._MEIPASS   #获取缓存目录（打包时取消注释）
+except:
+    temp_dir= '.'
 
 #连接模拟器
 def connect():
-    #chdir(temp_dir)      #更改工作目录至缓存目录（打包时取消注释）
+    chdir(temp_dir)      #更改工作目录至缓存目录（打包时取消注释）
     connect_command=r'.\bin\adb.exe connect 127.0.0.1:7555'  #mumu模拟器
     #connect_command='adb connect 127.0.0.1:62001'  #夜神模拟器
     #connect_command='adb connect 127.0.0.1:5555'   #genymotion，谷歌原生，雷电
