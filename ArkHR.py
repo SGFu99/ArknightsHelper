@@ -9,7 +9,8 @@ def update_HR_data():
     从 aktools.graueneko.xyz 更新干员信息表
     """
     print("向aktools.graueneko.xyz获取数据...")
-    response = requests.get("https://aktools.graueneko.xyz/assets/data/akhr.json") 
+    #response = requests.get("https://aktools.graueneko.xyz/assets/data/akhr.json") #  旧链接
+    response = requests.get("https://www.bigfun.cn/static/aktools-old/1588868210/data/akhr.json")
     if response:
         with open("./bin/akhr.json",'w',encoding="utf-8") as f:
             f.write(response.text)
