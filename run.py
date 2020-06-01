@@ -15,7 +15,7 @@ signal.signal(signal.SIGTERM, quit)
 
 def auto_run(auto=False,username='',password='',command=''):
     automode=auto
-    system("mode con cols=59 lines=30")  #调整窗口大小
+    system("mode con cols=59 lines=999")  #调整窗口大小
     menu='''------------------------快捷菜单--------------------------
 
 * 输入 【关卡序号,次数】 进行指定关卡挑战，例如：1-7,3
