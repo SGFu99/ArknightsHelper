@@ -324,7 +324,7 @@ class Arknights():
             week=str((int(week)-1)%7)
 
         #四大模式特征表，映射表
-        zhuxian=['0','1','2','3','4','5','6','S2','S3','S4','S5','S6']
+        zhuxian=['0','1','2','3','4','5','6','7','S2','S3','S4','S5','S6','S7']
         wuzi={'LS':'zhanshuyanxi','CA':'kongzhongweixie','CE':'huowuyunsong','SK':'ziyuanbaozhang','AP':'fensuifangyu'}
         xinpian=['PR']
         jiaomie=['JM']
@@ -426,9 +426,8 @@ d. 装置      S3-4      c. 糖        S3-1
         username_pos=[(493,413),(775,441)]
         passwd_pos=[(495,462),(776,493)]
         account_login_pos=[(319,482),(503,529)]
-        while self.__contains("game_icon"):
-            self.__click("game_icon",refresh=False)
-            self.message(" 打开游戏")
+        system(r".\bin\adb.exe shell am start com.hypergryph.arknights/com.u8.sdk.U8UnityContext >nul")
+        self.message(" 打开游戏")
         while not self.__contains("game_start"):
             self.__wait(0.5)
         self.__click("game_start",refresh=False)
@@ -446,7 +445,7 @@ d. 装置      S3-4      c. 糖        S3-1
         
         self.__random_click(account_login_pos)
         self.message(" 进入登录界面")
-        self.__wait(0.5)
+        self.__wait(1)
         #self.message(" 输入用户名")
         self.__random_click(username_pos)
         self.__wait(0.2)
