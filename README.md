@@ -11,9 +11,9 @@ ArknightsHelper
 环境需求
 --------------------------------------------------------------------
 
-不想装环境的可以直接下载打包好了的exe文件: [https://pan.baidu.com/s/1eoIKHap-Xpg5empgdoVPDQ](https://pan.baidu.com/s/1eoIKHap-Xpg5empgdoVPDQ) 提取码: hepv   
+不想装环境的可以直接下载打包好了的exe文件（拒绝百毒云，从我做起）: [https://share.weiyun.com/sLM5JdgH](https://share.weiyun.com/sLM5JdgH) 密码：p7wx3b
 
-* 脚本默认设置的是mumu模拟器连接指令，**模拟器设置分辨率1280*720并确保开启adb**。**其它模拟器需要编辑`tools.py`修改`connect_command`为该模拟器的ADB连接指令**）
+* 脚本默认设置的是mumu模拟器连接指令，**模拟器设置分辨率1280*720并确保开启adb**。~~其它模拟器需要编辑`tools.py`修改`connect_command`为该模拟器的ADB连接指令~~（现在可以尝试搜索和连接不同模拟器了）
 
 *  安装 python 3.7.2 环境
 
